@@ -1,4 +1,5 @@
 <?php
+
 require('koneksi.php');
 require('Form.php');
 
@@ -15,7 +16,7 @@ while ($row = $result->fetch_assoc()) {
     }
 }
 
-#Form
+#Form 
 $form = new Form('Proses.php');
 $form->open();
 

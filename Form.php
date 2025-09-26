@@ -61,6 +61,11 @@ class Form{
         echo "<label>$label: <textarea name='$name'></textarea></label><br>";
     }
 
+    //login
+    public function Login($name, $label){
+        echo "<label>$label: <input type='password' name='$name'> </label><br>";
+    }
+
     
 }
 
